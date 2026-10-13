@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+
+# Rebuilt by the code: resized-photo cache and reduced-data models
+data/*.npz
+models/*pct.pt

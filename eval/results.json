@@ -1,0 +1,457 @@
+{
+  "test": {
+    "small_cnn": {
+      "model": "small_cnn",
+      "fraction": 1.0,
+      "threshold": 0.16,
+      "auc": 0.9885355029585798,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9307692307692308,
+        "recall": 0.9358974358974359,
+        "precision": 0.948051948051948,
+        "missed_defects": 10,
+        "false_rejects": 8,
+        "cost": 108
+      },
+      "at_threshold": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.9230769230769231,
+        "recall": 0.9807692307692307,
+        "precision": 0.9,
+        "missed_defects": 3,
+        "false_rejects": 17,
+        "cost": 47
+      },
+      "accuracy_ci": [
+        0.8841782934596567,
+        0.9496553400537847
+      ],
+      "recall_ci": [
+        0.9449903323084562,
+        0.9934387124458505
+      ]
+    },
+    "resnet18": {
+      "model": "resnet18",
+      "fraction": 1.0,
+      "threshold": 0.09,
+      "auc": 0.9996918145956607,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 1.0,
+        "missed_defects": 2,
+        "false_rejects": 0,
+        "cost": 20
+      },
+      "at_threshold": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.9884615384615385,
+        "recall": 0.9935897435897436,
+        "precision": 0.9872611464968153,
+        "missed_defects": 1,
+        "false_rejects": 2,
+        "cost": 12
+      },
+      "accuracy_ci": [
+        0.9666304926964924,
+        0.9960683387235719
+      ],
+      "recall_ci": [
+        0.9645862554536859,
+        0.9988675638274022
+      ]
+    },
+    "resnet18_relit": {
+      "model": "resnet18_relit",
+      "fraction": 1.0,
+      "threshold": 0.52,
+      "auc": 0.9988905325443788,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 1.0,
+        "missed_defects": 2,
+        "false_rejects": 0,
+        "cost": 20
+      },
+      "at_threshold": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.9923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 1.0,
+        "missed_defects": 2,
+        "false_rejects": 0,
+        "cost": 20
+      },
+      "accuracy_ci": [
+        0.9723911421220146,
+        0.9978879950572627
+      ],
+      "recall_ci": [
+        0.954464275287179,
+        0.9964771567305185
+      ]
+    }
+  },
+  "label_efficiency": [
+    {
+      "model": "small_cnn",
+      "fraction": 0.1,
+      "threshold": 0.12,
+      "auc": 0.9768860946745562,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9384615384615385,
+        "recall": 0.9102564102564102,
+        "precision": 0.9861111111111112,
+        "missed_defects": 14,
+        "false_rejects": 2,
+        "cost": 142
+      },
+      "at_threshold": {
+        "threshold": 0.12,
+        "n": 260,
+        "accuracy": 0.9307692307692308,
+        "recall": 0.9551282051282052,
+        "precision": 0.93125,
+        "missed_defects": 7,
+        "false_rejects": 11,
+        "cost": 81
+      },
+      "accuracy_ci": [
+        0.893230991959993,
+        0.9557632530718746
+      ],
+      "recall_ci": [
+        0.9102825541627866,
+        0.978096941537957
+      ],
+      "train_photos": 78
+    },
+    {
+      "model": "small_cnn",
+      "fraction": 1.0,
+      "threshold": 0.16,
+      "auc": 0.9885355029585798,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9307692307692308,
+        "recall": 0.9358974358974359,
+        "precision": 0.948051948051948,
+        "missed_defects": 10,
+        "false_rejects": 8,
+        "cost": 108
+      },
+      "at_threshold": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.9230769230769231,
+        "recall": 0.9807692307692307,
+        "precision": 0.9,
+        "missed_defects": 3,
+        "false_rejects": 17,
+        "cost": 47
+      },
+      "accuracy_ci": [
+        0.8841782934596567,
+        0.9496553400537847
+      ],
+      "recall_ci": [
+        0.9449903323084562,
+        0.9934387124458505
+      ],
+      "train_photos": 780
+    },
+    {
+      "model": "resnet18",
+      "fraction": 0.1,
+      "threshold": 0.09,
+      "auc": 0.993836291913215,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9807692307692307,
+        "recall": 0.9871794871794872,
+        "precision": 0.9808917197452229,
+        "missed_defects": 2,
+        "false_rejects": 3,
+        "cost": 23
+      },
+      "at_threshold": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.9384615384615385,
+        "recall": 0.9871794871794872,
+        "precision": 0.9166666666666666,
+        "missed_defects": 2,
+        "false_rejects": 14,
+        "cost": 34
+      },
+      "accuracy_ci": [
+        0.9023851243158226,
+        0.9617697322344712
+      ],
+      "recall_ci": [
+        0.954464275287179,
+        0.9964771567305185
+      ],
+      "train_photos": 78
+    },
+    {
+      "model": "resnet18",
+      "fraction": 1.0,
+      "threshold": 0.09,
+      "auc": 0.9996918145956607,
+      "at_0.5": {
+        "threshold": 0.5,
+        "n": 260,
+        "accuracy": 0.9923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 1.0,
+        "missed_defects": 2,
+        "false_rejects": 0,
+        "cost": 20
+      },
+      "at_threshold": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.9884615384615385,
+        "recall": 0.9935897435897436,
+        "precision": 0.9872611464968153,
+        "missed_defects": 1,
+        "false_rejects": 2,
+        "cost": 12
+      },
+      "accuracy_ci": [
+        0.9666304926964924,
+        0.9960683387235719
+      ],
+      "recall_ci": [
+        0.9645862554536859,
+        0.9988675638274022
+      ],
+      "train_photos": 780
+    }
+  ],
+  "robustness": {
+    "small_cnn": {
+      "Clean test photos": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.9230769230769231,
+        "recall": 0.9807692307692307,
+        "precision": 0.9,
+        "missed_defects": 3,
+        "false_rejects": 17,
+        "cost": 47
+      },
+      "Darker (60% brightness)": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.6192307692307693,
+        "recall": 0.9935897435897436,
+        "precision": 0.6126482213438735,
+        "missed_defects": 1,
+        "false_rejects": 98,
+        "cost": 108
+      },
+      "Brighter (130% brightness)": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.8653846153846154,
+        "recall": 0.9038461538461539,
+        "precision": 0.8757763975155279,
+        "missed_defects": 15,
+        "false_rejects": 20,
+        "cost": 170
+      },
+      "Out of focus (blur)": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.5923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 0.5968992248062015,
+        "missed_defects": 2,
+        "false_rejects": 104,
+        "cost": 124
+      },
+      "Sensor noise": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.5115384615384615,
+        "recall": 0.7692307692307693,
+        "precision": 0.5687203791469194,
+        "missed_defects": 36,
+        "false_rejects": 91,
+        "cost": 451
+      },
+      "Low resolution (96 px)": {
+        "threshold": 0.16,
+        "n": 260,
+        "accuracy": 0.6923076923076923,
+        "recall": 0.9230769230769231,
+        "precision": 0.6792452830188679,
+        "missed_defects": 12,
+        "false_rejects": 68,
+        "cost": 188
+      }
+    },
+    "resnet18": {
+      "Clean test photos": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.9884615384615385,
+        "recall": 0.9935897435897436,
+        "precision": 0.9872611464968153,
+        "missed_defects": 1,
+        "false_rejects": 2,
+        "cost": 12
+      },
+      "Darker (60% brightness)": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.95,
+        "recall": 0.9871794871794872,
+        "precision": 0.9333333333333333,
+        "missed_defects": 2,
+        "false_rejects": 11,
+        "cost": 31
+      },
+      "Brighter (130% brightness)": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.9769230769230769,
+        "recall": 0.9807692307692307,
+        "precision": 0.9807692307692307,
+        "missed_defects": 3,
+        "false_rejects": 3,
+        "cost": 33
+      },
+      "Out of focus (blur)": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.8076923076923077,
+        "recall": 1.0,
+        "precision": 0.7572815533980582,
+        "missed_defects": 0,
+        "false_rejects": 50,
+        "cost": 50
+      },
+      "Sensor noise": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.7615384615384615,
+        "recall": 0.9935897435897436,
+        "precision": 0.7175925925925926,
+        "missed_defects": 1,
+        "false_rejects": 61,
+        "cost": 71
+      },
+      "Low resolution (96 px)": {
+        "threshold": 0.09,
+        "n": 260,
+        "accuracy": 0.8192307692307692,
+        "recall": 1.0,
+        "precision": 0.7684729064039408,
+        "missed_defects": 0,
+        "false_rejects": 47,
+        "cost": 47
+      }
+    },
+    "resnet18_relit": {
+      "Clean test photos": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.9923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 1.0,
+        "missed_defects": 2,
+        "false_rejects": 0,
+        "cost": 20
+      },
+      "Darker (60% brightness)": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.9884615384615385,
+        "recall": 0.9807692307692307,
+        "precision": 1.0,
+        "missed_defects": 3,
+        "false_rejects": 0,
+        "cost": 30
+      },
+      "Brighter (130% brightness)": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.9923076923076923,
+        "recall": 0.9871794871794872,
+        "precision": 1.0,
+        "missed_defects": 2,
+        "false_rejects": 0,
+        "cost": 20
+      },
+      "Out of focus (blur)": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.9153846153846154,
+        "recall": 0.9358974358974359,
+        "precision": 0.9240506329113924,
+        "missed_defects": 10,
+        "false_rejects": 12,
+        "cost": 112
+      },
+      "Sensor noise": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.8269230769230769,
+        "recall": 0.9551282051282052,
+        "precision": 0.7967914438502673,
+        "missed_defects": 7,
+        "false_rejects": 38,
+        "cost": 108
+      },
+      "Low resolution (96 px)": {
+        "threshold": 0.52,
+        "n": 260,
+        "accuracy": 0.9115384615384615,
+        "recall": 0.9871794871794872,
+        "precision": 0.88,
+        "missed_defects": 2,
+        "false_rejects": 21,
+        "cost": 41
+      }
+    }
+  },
+  "speed": {
+    "small_cnn": {
+      "ms_per_photo": 12.689790000149515,
+      "train_minutes": 13.2
+    },
+    "resnet18": {
+      "ms_per_photo": 90.50967000075616,
+      "train_minutes": 21.0
+    },
+    "resnet18_relit": {
+      "ms_per_photo": 92.7633049999713,
+      "train_minutes": 21.7
+    }
+  },
+  "shortcut_check": {
+    "accuracy": 0.7807692307692308,
+    "auc": 0.8600221893491125,
+    "majority_class_accuracy": 0.6,
+    "mean_brightness_defective": 138.73435631377552,
+    "mean_brightness_ok": 149.45940246957215
+  }
+}

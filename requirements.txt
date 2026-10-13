@@ -1,0 +1,15 @@
+streamlit>=1.38
+
+# Model
+torch>=2.6
+torchvision>=0.21
+
+# Data + evaluation
+kagglehub>=0.3
+numpy>=2.0
+pandas>=2.2
+pillow>=10.0
+scikit-learn>=1.5
+matplotlib>=3.9
+
+pytest>=8.0
